@@ -99,7 +99,7 @@ const App = () => {
                         <h1>Educatalyst</h1>
                         <h2><b>Educating Dreams, Empowering Futures</b></h2>
                         <h3>"The function of education is to teach one to think intensively and to think critically.
-                            Intelligence plus character - that is the goal of true education." - Martin Luther King Jr.
+                            Intelligence plus character - that is the goal of true education." - <span> Martin Luther King Jr.</span>
                         </h3>
                     </div>
                 </div>
@@ -154,17 +154,15 @@ const App = () => {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="../assets/firstslide.png" className="d-block w-100" alt="First Image" />
+                        <img src="../assets/motto.png" className="d-block w-100" alt="First Image" />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Child Protection</h5>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="../assets/secondslide.jpg" className="d-block w-100" alt="First Image" />
+                        <img src="../assets/vision.png" className="d-block w-100" alt="First Image" />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Girl's Education</h5>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+
                         </div>
                     </div>
                 </div>
