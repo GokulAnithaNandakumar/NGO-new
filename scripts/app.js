@@ -21,7 +21,7 @@ const App = () => {
                                 <a id="links" className="nav-link" href="../aboutus.html">About Us</a>
                             </li>
                             <li className="nav-item">
-                                <a id="links" className="nav-link" href="#">Projects</a>
+                                <a id="links" className="nav-link" href="../project.html">Projects</a>
                             </li>
                             <li className="nav-item">
                                 <a id="links" className="nav-link" href="#">Get Involved</a>

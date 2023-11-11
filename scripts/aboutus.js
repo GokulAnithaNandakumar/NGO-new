@@ -38,12 +38,12 @@ const App = () => {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a id="links" className="nav-link" href="#">
+                                <a id="links" className="nav-link" href="../project.html">
                                     Projects
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a id="links" className="nav-link" href="#">
+                                <a id="links" className="nav-link" href="../events.html">
                                     Get Involved
                                 </a>
                             </li>
