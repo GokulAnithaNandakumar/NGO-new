@@ -3,7 +3,7 @@ const App = () => {
         <div>
             <header>
                 <nav id="mainNavbar" className="navbar navbar-light bg-light navbar-expand-md py-0">
-                    <a className="navbar-brand" href="index.html">
+                    <a className="navbar-brand" href="../index.html">
                         <img src="../assets/Educatalyst__1_-removebg-preview.png" id="logo" className="d-inline-block align-top"
                             alt="" loading="lazy" />
                     </a>
@@ -15,10 +15,10 @@ const App = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <a id="links" className="nav-link" href="#">Home</a>
+                                <a id="links" className="nav-link" href="../index.html">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a id="links" className="nav-link" href="../public/aboutus.html">About Us</a>
+                                <a id="links" className="nav-link" href="../aboutus.html">About Us</a>
                             </li>
                             <li className="nav-item">
                                 <a id="links" className="nav-link" href="#">Projects</a>
@@ -319,8 +319,8 @@ const App = () => {
                         <div class="footer_bottom">
                             <p>© 2023 Educatalyst®</p>
                             <ul class="footer_bottom_list">
-                                <li> <a href="../public/aboutus.html">  About Us</a></li>
-                                <li><a href="../public/contact.html">Contact Us</a></li>
+                                <li> <a href="../aboutus.html">  About Us</a></li>
+                                <li><a href="../contact.html">Contact Us</a></li>
 
                             </ul>
                         </div>

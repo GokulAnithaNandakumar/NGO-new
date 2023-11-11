@@ -17,7 +17,7 @@ const Appnew = () => {
                                 <a id="links" className="nav-link" href="../index.html">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a id="links" className="nav-link" href="../public/aboutus.html">About Us</a>
+                                <a id="links" className="nav-link" href="../aboutus.html">About Us</a>
                             </li>
                             <li className="nav-item">
                                 <a id="links" className="nav-link" href="#">Projects</a>
@@ -26,7 +26,7 @@ const Appnew = () => {
                                 <a id="links" className="nav-link" href="#">Get Involved</a>
                             </li>
                             <li className="nav-item">
-                                <a id="links" className="nav-link" href="../public/contact.html">Contact Us</a>
+                                <a id="links" className="nav-link" href="../contact.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -227,8 +227,8 @@ const Appnew = () => {
                     <div class="footer_bottom">
                         <p>© 2023 Educatalyst®</p>
                         <ul class="footer_bottom_list">
-                            <li> <a href="../public/aboutus.html">  About Us</a></li>
-                            <li><a href="../public/contact.html">Contact Us</a></li>
+                            <li> <a href="../aboutus.html">  About Us</a></li>
+                            <li><a href="../contact.html">Contact Us</a></li>
 
                         </ul>
                     </div>
