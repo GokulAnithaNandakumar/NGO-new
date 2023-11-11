@@ -194,34 +194,13 @@ const App = () => {
                                     <h4 class="title">role</h4>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-facebook"
+                                    <li><a href="#" class="fab fa-facebook"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-twitter"
+                                    <li><a href="#" class="fab fa-twitter"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-google-plus"
+                                    <li><a href="#" class="fab fa-google-plus"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-linkedin"
-                                        aria-hidden="true"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-                            <div class="our-team">
-                                <div class="picture">
-                                    <img class="img-fluid" src="../assets/devlogo.png"></img>
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="name">Michele Miller</h3>
-                                    <h4 class="title">role</h4>
-                                </div>
-                                <ul class="social">
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-facebook"
-                                        aria-hidden="true"></a></li>
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-twitter"
-                                        aria-hidden="true"></a></li>
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-google-plus"
-                                        aria-hidden="true"></a></li>
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-linkedin"
+                                    <li><a href="#" class="fab fa-linkedin"
                                         aria-hidden="true"></a></li>
                                 </ul>
                             </div>
@@ -236,13 +215,13 @@ const App = () => {
                                     <h4 class="title">role</h4>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-facebook"
+                                    <li><a href="#" class="fab fa-facebook"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-twitter"
+                                    <li><a href="#" class="fab fa-twitter"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-google-plus"
+                                    <li><a href="#" class="fab fa-google-plus"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-linkedin"
+                                    <li><a href="#" class="fab fa-linkedin"
                                         aria-hidden="true"></a></li>
                                 </ul>
                             </div>
@@ -257,13 +236,34 @@ const App = () => {
                                     <h4 class="title">role</h4>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-facebook"
+                                    <li><a href="#" class="fab fa-facebook"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-twitter"
+                                    <li><a href="#" class="fab fa-twitter"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-google-plus"
+                                    <li><a href="#" class="fab fa-google-plus"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-linkedin"
+                                    <li><a href="#" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="../assets/devlogo.png"></img>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">Michele Miller</h3>
+                                    <h4 class="title">role</h4>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="#" class="fab fa-facebook"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-twitter"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-google-plus"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-linkedin"
                                         aria-hidden="true"></a></li>
                                 </ul>
                             </div>
