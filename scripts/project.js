@@ -23,7 +23,7 @@ const Appli = () => {
                                 <a id="links" className="nav-link" href="../project.html">Projects</a>
                             </li>
                             <li className="nav-item">
-                                <a id="links" className="nav-link" href="#">Get Involved</a>
+                                <a id="links" className="nav-link" href="../events.html">Get Involved</a>
                             </li>
                             <li className="nav-item">
                                 <a id="links" className="nav-link" href="../contact.html">Contact Us</a>
@@ -39,7 +39,7 @@ const Appli = () => {
             <div className="row">
                 <div className="col-md-4"></div>
                 <div className="col-4">
-                    <h1 id="h1">Current Projects <br></br> </h1>
+                    <h1 id="h1">Current Projects  </h1>
                 </div>
                 <div className="col-md-4"></div>
             </div>
@@ -130,63 +130,63 @@ const Appli = () => {
 
             <div className="col-xl-1"></div>
 
-            <div className="row">
-
-                <footer class="footer">
-                    <div class="wrapper">
 
 
+            <footer class="footer">
+                <div class="wrapper">
 
 
 
-                        <div class="footer_middle">
-                            <div class="footer_middle_left">
-                                <h5>Follow Us</h5>
-                                <div class="footer_middle_left_list">
-                                    <div class="footer_icons">
-                                        <a href="https://www.facebook.com/"><img src="../assets/facebook.svg" alt="facebook" /></a>
-                                    </div>
-                                    <div class="footer_icons">
-                                        <a href="https://www.linkedin.com">
-                                            <img src="../assets/linkedIn.svg" alt="linkedIn" /></a>
-                                    </div>
-                                    <div class="footer_icons">
-                                        <a href="https://twitter.com/?lang=en">
-                                            <img src="../assets/twitter.svg" alt="twitter" /></a>
-                                    </div>
-                                    <div class="footer_icons">
-                                        <a href="https://www.youtube.com/">
-                                            <img src="../assets/youtube.svg" alt="youtube" /></a>
-                                    </div>
-                                    <div class="footer_icons">
-                                        <a href="https://www.instagram.com/">
-                                            <img src="../assets/instagram.svg" alt="instagram" /></a>
-                                    </div>
+
+
+                    <div class="footer_middle">
+                        <div class="footer_middle_left">
+                            <h5>Follow Us</h5>
+                            <div class="footer_middle_left_list">
+                                <div class="footer_icons">
+                                    <a href="https://www.facebook.com/"><img src="../assets/facebook.svg" alt="facebook" /></a>
                                 </div>
-                            </div>
-                            <div class="footer_middle_right">
-                                <h5>Mobile app</h5>
-                                <div class="footer_middle_right_list">
-                                    <div class="footer_icons">
-                                        <img src="../assets/apple.svg" alt="apple" />
-                                    </div>
-                                    <div class="footer_icons">
-                                        <img src="../assets/android.svg" alt="android" />
-                                    </div>
+                                <div class="footer_icons">
+                                    <a href="https://www.linkedin.com">
+                                        <img src="../assets/linkedIn.svg" alt="linkedIn" /></a>
+                                </div>
+                                <div class="footer_icons">
+                                    <a href="https://twitter.com/?lang=en">
+                                        <img src="../assets/twitter.svg" alt="twitter" /></a>
+                                </div>
+                                <div class="footer_icons">
+                                    <a href="https://www.youtube.com/">
+                                        <img src="../assets/youtube.svg" alt="youtube" /></a>
+                                </div>
+                                <div class="footer_icons">
+                                    <a href="https://www.instagram.com/">
+                                        <img src="../assets/instagram.svg" alt="instagram" /></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="footer_bottom">
-                            <p>© 2023 Educatalyst®</p>
-                            <ul class="footer_bottom_list">
-                                <li> <a href="../aboutus.html">  About Us</a></li>
-                                <li><a href="../contact.html">Contact Us</a></li>
-
-                            </ul>
+                        <div class="footer_middle_right">
+                            <h5>Mobile app</h5>
+                            <div class="footer_middle_right_list">
+                                <div class="footer_icons">
+                                    <img src="../assets/apple.svg" alt="apple" />
+                                </div>
+                                <div class="footer_icons">
+                                    <img src="../assets/android.svg" alt="android" />
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </footer>
-            </div>
+                    <div class="footer_bottom">
+                        <p>© 2023 Educatalyst®</p>
+                        <ul class="footer_bottom_list">
+                            <li> <a href="../aboutus.html">  About Us</a></li>
+                            <li><a href="../contact.html">Contact Us</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
         </div >
     );
 }
