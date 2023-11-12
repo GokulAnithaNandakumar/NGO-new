@@ -33,13 +33,15 @@ const Involv = () => {
                 </nav>
             </header>
 
-            <div>
-                <h1>Upcoming Events</h1>
+            <div className="conatainer">
+                <div className="col-lg-12 text-center">
+                    <h1 id="h1">Upcoming Events</h1>
+                </div>
             </div>
             <section className="container-fluid px-0">
                 <div className="row align-items-center">
                     <div className="col-lg-1"></div>
-                    <div className="col-lg flipbox">
+                    <div className="col-md flipbox">
                         <li class="card" aria-labelledby="event card">
                             <div class="card__filter">
                                 <img class="card__photo" src="../assets/Educatalyst.png" alt="A man in colorful clothing with the sun behind him on a beach."></img>
@@ -64,7 +66,7 @@ const Involv = () => {
                     </div>
 
 
-                    <div className="col-lg flipbox">
+                    <div className="col-md flipbox">
                         <li class="card" aria-labelledby="event card">
                             <div class="card__filter">
                                 <img class="card__photo" src="../assets/Educatalyst.png" alt="A man in colorful clothing with the sun behind him on a beach."></img>
@@ -90,7 +92,7 @@ const Involv = () => {
 
 
 
-                    <div className="col-lg flipbox">
+                    <div className="col-md flipbox">
                         <li class="card" aria-labelledby="event card">
                             <div class="card__filter">
                                 <img class="card__photo" src="../assets/Educatalyst.png" alt="A man in colorful clothing with the sun behind him on a beach."></img>
@@ -114,7 +116,7 @@ const Involv = () => {
                         </li>
                     </div>
 
-                    <div className="col-lg flipbox">
+                    <div className="col-md flipbox">
                         <li class="card" aria-labelledby="event card">
                             <div class="card__filter">
                                 <img class="card__photo" src="../assets/Educatalyst.png" alt="A man in colorful clothing with the sun behind him on a beach."></img>
@@ -143,12 +145,13 @@ const Involv = () => {
 
             <div className="container">
                 <div>
-                    <h1>Volunteering</h1>
+                    <h1 id="h1">Volunteering wihtEducatalyst</h1>
+                    <h5>Become a driving force for positive change by volunteering with Educatalyst. Your time and skills can make a significant impact on the lives of underprivileged children. As a volunteer, you have the opportunity to directly contribute to the educational journey of these young learners. Whether you're passionate about teaching, mentoring, or organizing events, there's a place for you at Educatalyst. Join our team of dedicated individuals committed to building a brighter future through education.</h5>
                 </div>
-                <div className="col-md-12 text-center">
+                <div className="col-lg-12 text-center">
                     <button id="btn1"><a href="https://gokulnandakumar04.wixsite.com/volunteer">Volunteer</a></button>
                 </div>
-                <div className="col-md-12 text-center">
+                <div className="col-lg-12 text-center">
                     <button id="btn1"><a href="../donate.html">Donation Form</a></button>
                 </div>
             </div>
