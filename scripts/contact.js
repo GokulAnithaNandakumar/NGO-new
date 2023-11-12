@@ -52,134 +52,268 @@ const Appnew = () => {
             </div>
             <div className="row">
                 <div className="col-md-4"></div>
-                <div className="col-4">
-                    <h1 id="h1">Contact Us</h1>
+                <div className="col-md-4">
+                    <h1 id="h11">Contact Us</h1>
                 </div>
                 <div className="col-md-4"></div>
             </div>
-            <div className="row">
-                <div className="col-12 card">
-                    <input type="radio" name="select" id="slide_1" defaultChecked />
-                    <input type="radio" name="select" id="slide_2" />
-                    <input type="radio" name="select" id="slide_3" />
-                    <input type="checkbox" id="slideImg" />
-                    <div className="slider">
-                        <label htmlFor="slide_1" className="slide slide_1"></label>
-                        <label htmlFor="slide_2" className="slide slide_2"></label>
-                        <label htmlFor="slide_3" className="slide slide_3"></label>
-                    </div>
-                    <div className="inner_part">
-                        <label htmlFor="slideImg" className="img">
-                            <img className="img_1" src="../assets/potrait.webp" alt="İstanbul" />
-                        </label>
-                        <div className="content content_1">
-                            <div className="title">İstanbul</div>
-                            <div className="text">
-                                Istanbul, a fascinating city built on two Continents, divided by the Bosphorus Strait. This is
-                                one of the greatest cities in the world.
+            <div class="container">
+                <div class="middleArea"></div>
+                <div class="mySlider">
+                    <div class="slideItems item1 active">
+                        <div>
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="../assets/devlogo.png"></img>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">Michele Miller</h3>
+                                    <h4 class="title">role</h4>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-twitter"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-google-plus"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                </ul>
                             </div>
-                            <button>Read More</button>
                         </div>
                     </div>
-                    <div className="inner_part">
-                        <label htmlFor="slideImg" className="img">
-                            <img className="img_2" src="../assets/potrait.webp" alt="Ankara" />
-                        </label>
-                        <div className="content content_2">
-                            <div className="title">Ankara</div>
-                            <div className="text">
-                                Ankara is Turkey's beating heart, second largest city, located in the Central Anatolia region
-                                and home to the Grand National Assembly of Turkey.
+                    <div class="slideItems item2 next">
+                        <div>
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="../assets/devlogo.png"></img>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">Michele Miller</h3>
+                                    <h4 class="title">role</h4>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-twitter"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-google-plus"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                </ul>
                             </div>
-                            <button>Read More</button>
                         </div>
                     </div>
-                    <div className="inner_part">
-                        <label htmlFor="slideImg" className="img">
-                            <img className="img_3" src="../assets/potrait.webp" alt="İzmir" />
-                        </label>
-                        <div className="content content_3">
-                            <div className="title">İzmir</div>
-                            <div className="text">Located on the shores of the Aegean Sea, west of the Anatolian Peninsula, İzmir is
-                                the third-largest city in Turkey.
+                    <div class="slideItems item3 next">
+                        <div>
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="../assets/devlogo.png"></img>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">Michele Miller</h3>
+                                    <h4 class="title">role</h4>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-twitter"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-google-plus"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                </ul>
                             </div>
-                            <button>Read More</button>
                         </div>
                     </div>
+                    <div class="slideItems item4 next">
+                        <div>
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="../assets/devlogo.png"></img>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">Michele Miller</h3>
+                                    <h4 class="title">role</h4>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-twitter"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-google-plus"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slideItems item5 next">
+                        <div>
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="../assets/devlogo.png"></img>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">Michele Miller</h3>
+                                    <h4 class="title">role</h4>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-twitter"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-google-plus"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slideItems item6 next">
+                        <div>
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="../assets/devlogo.png"></img>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">Michele Miller</h3>
+                                    <h4 class="title">role</h4>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-twitter"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-google-plus"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slideItems item7 next">
+                        <div>
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="../assets/devlogo.png"></img>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">Michele Miller</h3>
+                                    <h4 class="title">role</h4>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-twitter"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-google-plus"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slideItems item8 next">
+                        <div>
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="../assets/devlogo.png"></img>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">Michele Miller</h3>
+                                    <h4 class="title">role</h4>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-twitter"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-google-plus"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slideItems item9 next">
+                        <div>
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="../assets/devlogo.png"></img>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">Michele Miller</h3>
+                                    <h4 class="title">role</h4>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-twitter"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-google-plus"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slideItems item10 next">
+                        <div>
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="../assets/devlogo.png"></img>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">Michele Miller</h3>
+                                    <h4 class="title">role</h4>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-twitter"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="#" class="fab fa-google-plus"
+                                        aria-hidden="true"></a></li>
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
+                                        aria-hidden="true"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="myNavs">
+                    <div class="left"><i id="navleft" class="fa fa-caret-left"></i></div>
+                    <div class="right"><i id="navright" class="fa fa-caret-right"></i></div>
                 </div>
             </div>
-            <div className="container" id="last">
-                <div className="row">
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div className="our-team">
-                            <div className="picture">
-                                <img className="img-fluid" src="../assets/devlogo.png" alt="Michele Miller" />
-                            </div>
-                            <div className="team-content">
-                                <h3 className="name">Michele Miller</h3>
-                                <h4 className="title">role</h4>
-                            </div>
-                            <ul className="social">
-                                <li><a href="https://www.facebook.com/" className="fab fa-facebook" aria-hidden="true"></a></li>
-                                <li><a href="#" className="fab fa-twitter" aria-hidden="true"></a></li>
-                                <li><a href="#" className="fab fa-google-plus" aria-hidden="true"></a></li>
-                                <li><a href="www.linkedin.com/in/gokulnandakumar" className="fab fa-linkedin" aria-hidden="true"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div className="our-team">
-                            <div className="picture">
-                                <img className="img-fluid" src="../assets/devlogo.png" alt="Patricia Knott" />
-                            </div>
-                            <div className="team-content">
-                                <h3 className="name">Patricia Knott</h3>
-                                <h4 className="title">role</h4>
-                            </div>
-                            <ul className="social">
-                                <li><a href="https://www.facebook.com/" className="fab fa-facebook" aria-hidden="true"></a></li>
-                                <li><a href="#" className="fab fa-twitter" aria-hidden="true"></a></li>
-                                <li><a href="#" className="fab fa-google-plus" aria-hidden="true"></a></li>
-                                <li><a href="www.linkedin.com/in/gokulnandakumar" className="fab fa-linkedin" aria-hidden="true"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div className="our-team">
-                            <div className="picture">
-                                <img className="img-fluid" src="../assets/devlogo.png" alt="Justin Ramos" />
-                            </div>
-                            <div className="team-content">
-                                <h3 className="name">Justin Ramos</h3>
-                                <h4 className="title">role</h4>
-                            </div>
-                            <ul className="social">
-                                <li><a href="https://www.facebook.com/" className="fab fa-facebook" aria-hidden="true"></a></li>
-                                <li><a href="#" className="fab fa-twitter" aria-hidden="true"></a></li>
-                                <li><a href="#" className="fab fa-google-plus" aria-hidden="true"></a></li>
-                                <li><a href="www.linkedin.com/in/gokulnandakumar" className="fab fa-linkedin" aria-hidden="true"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <div className="our-team">
-                            <div className="picture">
-                                <img className="img-fluid" src="../assets/devlogo.png" alt="Mary Huntley" />
-                            </div>
-                            <div className="team-content">
-                                <h3 className="name">Mary Huntley</h3>
-                                <h4 className="title">role</h4>
-                            </div>
-                            <ul className="social">
-                                <li><a href="https://www.facebook.com/" className="fab fa-facebook" aria-hidden="true"></a></li>
-                                <li><a href="#" className="fab fa-twitter" aria-hidden="true"></a></li>
-                                <li><a href="#" className="fab fa-google-plus" aria-hidden="true"></a></li>
-                                <li><a href="www.linkedin.com/in/gokulnandakumar" className="fab fa-linkedin" aria-hidden="true"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <footer class="footer">
                 <div class="wrapper">
 
