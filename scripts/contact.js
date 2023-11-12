@@ -39,15 +39,51 @@ const Appnew = () => {
                         width="600" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div className="col-6">
-                    <h1>Address:</h1>
-                    <h3>VIT <br />
-                        Vellore Campus <br />
-                        Vellore - 632 014 <br />
-                        Tamilnadu, India <br />
-                        Tel: 91-416-2243091 / 93 <br />
-                        Fax: 91-416-2243092 <br />
-                        91-416-2240411</h3>
+                <div className="col-6" id="contac">
+                    <h3>Thank you for contacting Educatalyst.<br></br>
+
+
+
+                        <b>Donations:</b><br></br>
+                        Checks/money orders should be mailed to: Educatalyst, Attn: Gift Processing, abc abc abc abc abc abc abc abc abc Make checks payable to: Educatalyst. If you wish your gift to be allocated to a particular program, include this information in the memo line.
+                        <br></br>
+                        <br></br>
+                        <b>Phone:</b><br></br>
+                        Please call toll-free 1.999.999.9999 (8:00am-5:00pm IST, M-F)
+                        <br></br>
+                        <br></br>
+                        <b>Email:</b><br></br>
+                        supportercare@savechildren.org
+                        <br></br>
+                        <br></br>
+                        <b>Mail:</b><br></br>
+                        VIT University
+                        Katpadi, Vellore-632007
+                        <br></br>
+                        <br></br>
+                        VIT University
+                        Katpadi, Vellore-632007 (8:00am-5:00pm IST, M-F)
+                        <br></br>
+                        <br></br>
+                        <b>Media:</b><br></br>
+                        media@educatalyst.org
+                        <br></br>
+                        <br></br>
+                        <b>Social Media:</b><br></br>
+                        @Educatalyst on Twitter<br></br>
+                        Educatalyst  on Facebook<br></br>
+                        Educatalyst  on Instagram
+                        <br></br>
+                        <br></br>
+                        Report a Problem:
+                        Educatalyst uses EthicsPoint, a comprehensive and confidential third-party reporting tool, to receive concerns from employees as well as the general public.
+                        <br></br>
+                        <br></br>
+                        The EthicsPoint system is designed to report any violation of applicable laws and regulations, our stated Code of Business Conduct and Ethics, policies or procedures, issues or questions, or any other concern.
+                        <br></br>
+                        <br></br>
+                        By clicking here to access EthicsPoint, you will be taken to our partner’s website, which is not owned by Educatalyst.
+                    </h3>
                 </div>
             </div>
             <div className="row">

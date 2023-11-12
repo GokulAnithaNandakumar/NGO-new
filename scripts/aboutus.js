@@ -119,16 +119,67 @@ const App = () => {
                     <h1>Our Values</h1>
                     <h3>At Save the Children, we live by five Core Values: <br />
                         <br />
-                        <a href="" type="button" data-toggle="popover" title="Creativity"
-                            data-content="Popover Content">Accountability</a><br />
-                        <a href="" type="button" data-toggle="popover" title="Creativity"
-                            data-content="Popover Content">Integrity</a><br />
-                        <a href="" type="button" data-toggle="popover" title="Creativity"
-                            data-content="Popover Content">Ambition</a><br />
-                        <a href="" type="button" data-toggle="popover" title="Creativity"
-                            data-content="Popover Content">Collaboration</a> <br />
-                        <a href="" type="button" data-toggle="popover" title="Creativity"
-                            data-content="Popover Content">Creativity</a>
+                        <div class="popover__wrapper">
+                            <a href="#">
+                                <h2 class="popover__title">Accountability</h2>
+                            </a>
+                            <div class="popover__content">
+                                <p class="popover__message">"Accountability is at the core of our mission at Educatalyst. We are committed to transparency and responsibility in all our endeavors. Our dedicated team ensures that every contribution is utilized efficiently and effectively to make a lasting impact on the lives of underprivileged children. We believe in being answerable to our donors, partners, and the communities we serve, fostering trust and creating positive change together. Join us in our journey towards accountable and impactful education initiatives."
+
+                                </p>
+                                <img alt="" src="../assets/Educatalyst.png"></img>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="popover__wrapper">
+                            <a href="#">
+                                <h2 class="popover__title">Integration</h2>
+                            </a>
+                            <div class="popover__content">
+                                <p class="popover__message">"At Educatalyst, we champion integration—bringing together diverse perspectives, ideas, and resources. By fostering collaboration and unity, we create a holistic approach to education that addresses the multifaceted needs of underprivileged children. Together, we integrate compassion, innovation, and dedication for a brighter future."
+
+                                </p>
+                                <img alt="" src="../assets/Educatalyst.png"></img>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="popover__wrapper">
+                            <a href="#">
+                                <h2 class="popover__title">Ambition</h2>
+                            </a>
+                            <div class="popover__content">
+                                <p class="popover__message">"Ambition fuels our mission at Educatalyst. We aspire to break barriers and transform the landscape of education for underprivileged children. With unwavering determination, we dream big, set audacious goals, and work tirelessly to achieve them. Join us in our ambitious pursuit of empowering young minds."
+
+                                </p>
+                                <img alt="" src="../assets/Educatalyst.png"></img>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="popover__wrapper">
+                            <a href="#">
+                                <h2 class="popover__title">Collaboration</h2>
+                            </a>
+                            <div class="popover__content">
+                                <p class="popover__message">"Collaboration is the cornerstone of our impact. At Educatalyst, we believe in the power of partnerships. By collaborating with communities, donors, and like-minded organizations, we amplify our collective strength to create meaningful change. Together, we build a network of support that empowers education for all."
+
+                                </p>
+                                <img alt="" src="../assets/Educatalyst.png"></img>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="popover__wrapper">
+                            <a href="#">
+                                <h2 class="popover__title">Integrity</h2>
+                            </a>
+                            <div class="popover__content">
+                                <p class="popover__message">"Integrity is the foundation of Educatalyst's commitment. We uphold the highest ethical standards in all our actions. Transparency, honesty, and accountability guide our interactions with donors, partners, and the communities we serve. With integrity as our compass, we strive to make a lasting impact on the lives of those we support."
+
+                                </p>
+                                <img alt="" src="../assets/Educatalyst.png"></img>
+                            </div>
+                        </div>
+                        <br />
+
                     </h3>
                     <h4>These Core Values drive our long-term strategies and short-term goals, and they underpin our mission to
                         inspire breakthroughs in the way the world treats children and achieve immediate and lasting impact in
