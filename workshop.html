@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events-Workshop</title>
+    <link rel="icon" href="../assets/Educatalyst.png">
+    <!-- babel -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Acme|Alegreya|Alegreya+Sans|Anton|Archivo|Archivo+Black|Archivo+Narrow|Arimo|Arvo|Asap|Asap+Condensed|Bitter|Bowlby+One+SC|Bree+Serif|Cabin|Cairo|Catamaran|Crete+Round|Crimson+Text|Cuprum|Dancing+Script|Dosis|Droid+Sans|Droid+Serif|EB+Garamond|Exo|Exo+2|Faustina|Fira+Sans|Fjalla+One|Francois+One|Gloria+Hallelujah|Hind|Inconsolata|Indie+Flower|Josefin+Sans|Julee|Karla|Lato|Libre+Baskerville|Libre+Franklin|Lobster|Lora|Mada|Manuale|Maven+Pro|Merriweather|Merriweather+Sans|Montserrat|Montserrat+Subrayada|Mukta+Vaani|Muli|Noto+Sans|Noto+Serif|Nunito|Open+Sans|Open+Sans+Condensed:300|Oswald|Oxygen|PT+Sans|PT+Sans+Caption|PT+Sans+Narrow|PT+Serif|Pacifico|Passion+One|Pathway+Gothic+One|Play|Playfair+Display|Poppins|Questrial|Quicksand|Raleway|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Ropa+Sans|Rubik|Saira|Saira+Condensed|Saira+Extra+Condensed|Saira+Semi+Condensed|Sedgwick+Ave|Sedgwick+Ave+Display|Shadows+Into+Light|Signika|Slabo+27px|Source+Code+Pro|Source+Sans+Pro|Spectral|Titillium+Web|Ubuntu|Ubuntu+Condensed|Varela+Round|Vollkorn|Work+Sans|Yanone+Kaffeesatz|Zilla+Slab|Zilla+Slab+Highlight"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel=" stylesheet" href="../styles/workshop.css">
+    <!-- <link rel="icon" href="../assets/Educatalyst-removebg-preview.png"> -->
+    <!-- Using Font Awesome from CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+
+<div id="workshop"></div>
+
+<div>
+
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Bree+Serif:300,400,700' rel='stylesheet' type='text/css'>
+
+        <link href='https://fonts.googleapis.com/css?family=Average:300,400,700' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body class="page-body">
+        <div class="wrapper__outer-body">
+            <div class="wrapper__inner-body">
+
+                <div class="wrapper__header">
+
+                    <section class="event-header-left">
+                        <section class="event-header-left-content">
+                            <img id="img1" src="../assets/Educatalyst__1_-removebg-preview.png" />
+                            <h4 class="event-subtitle"> </h4>
+                        </section>
+
+                    </section>
+                    <! End event-header-left ->
+
+                        <section class="social-media-wrapper">
+                            <h4 class="social-icons">
+                                <ul class="share-buttons">
+                                    <li>
+                                        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffiercebiotech.com%2Fevent%2Fbiobreakfast%2F2015%2F&t="
+                                            title="Share on Facebook" target="_blank"
+                                            onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img
+                                                src="http://simplesharingbuttons.com/images/flat_web_icon_set/inverted/Facebook.png"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Ffiercebiotech.com%2Fevent%2Fbiobreakfast%2F2015%2F&text=:%20http%3A%2F%2Ffiercebiotech.com%2Fevent%2Fbiobreakfast%2F2015%2F"
+                                            target="_blank" title="Tweet"
+                                            onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img
+                                                src="http://simplesharingbuttons.com/images/flat_web_icon_set/inverted/Twitter.png"></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ffiercebiotech.com%2Fevent%2Fbiobreakfast%2F2015%2F&title=&summary=&source=http%3A%2F%2Ffiercebiotech.com%2Fevent%2Fbiobreakfast%2F2015%2F"
+                                            target="_blank" title="Share on LinkedIn"
+                                            onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img
+                                                src="http://simplesharingbuttons.com/images/flat_web_icon_set/inverted/LinkedIn.png"></a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:?subject=&body=:%20http%3A%2F%2Ffiercebiotech.com%2Fevent%2Fbiobreakfast%2F2015%2F"
+                                            target="_blank" title="Email"
+                                            onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img
+                                                src="http://simplesharingbuttons.com/images/flat_web_icon_set/inverted/Email.png"></a>
+                                    </li>
+                                </ul>
+                            </h4>
+
+                        </section>
+                        <! End social-media-wrapper ->
+                </div>
+                <! End wrapper__header ->
+
+                    <div class="wrapper__menu">
+                        <nav class="menu-main">
+                            <ul>
+                                <li><a href="" class="menu-button"> REGISTER</a></li>
+                                <li><a href="#venue" class="menu-button"> VENUE</a></li>
+                                <li><a href="#sponsors" class="menu-button"> SPONSORS</a></li>
+                                <li><a href="#panelists" class="menu-button">PANELISTS</a></li>
+                                <li><a href="#faqs" class="menu-button"> FAQS</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <! End wrapper__menu ->
+
+                        <div class="wrapper__event-info">
+                            <h1 class="event-title">
+                                Workshop: Humanity
+                            </h1>
+
+                            <section class="event-summary">
+                                In the transformative workshop, "Humanity Generate One," participants embark on a
+                                journey of exploration, collaboration, and innovation aimed at collectively shaping a
+                                harmonious and sustainable future. Over the course of this interactive session,
+                                attendees delve into the intersection of technology, ethics, and human potential,
+                                seeking to harness the power of unity and creativity for the betterment of our shared
+                                existence. Through engaging discussions, hands-on activities, and thought-provoking
+                                exercises, the workshop aims to inspire a shared vision where humanity collaboratively
+                                generates solutions to pressing challenges, fostering a sense of collective
+                                responsibility and empowerment. Join us as we explore the boundless possibilities that
+                                arise when diverse minds converge with the common goal of creating a more compassionate,
+                                inclusive, and resilient world for generations to come. Questions at xyz@mail.com
+                            </section>
+
+                            <section class="event-details">
+                                <h2 class="event-date">
+                                    Friday, December 10, 2023</h2>
+                                <h3 class="event-time">
+                                    7:00-3:45am</h2>
+
+                                    <section class="event-address">
+                                        <p class="event-address-name">Anna Auditorium</p>
+
+                                        VIT
+                                        Vellore, Tamil Nadu
+                                        India
+                                    </section>
+                                    <section class="register-button">
+
+                                    </section>
+                            </section>
+
+
+                        </div>
+
+
+                        <div class="wrapper__panelists">
+                            <h3 class="event-faq__title">
+                                <a name="panelists">
+                                    Panelists: </a>
+                            </h3>
+
+                            <ul id="panelist-info__border">
+                                <li><input type="checkbox" id="cb1" /><label for="cb1"><span class="click">(Click to
+                                            view/hide Bio)</span>
+                                        <div><img src="../assets/potrait.webp" />
+                                        </div><span class="panelist-name">Alice M.Harmony</span><br>
+                                        <p class="job-title">Editor-in-Chief, <br>ABC Firm</p>
+                                    </label>
+                                    <ul id="panelist-bio__border">
+                                        <li> Alice M. Harmony is a humanitarian analyst with 32 years of impactful
+                                            experience in philanthropy. Appointed as the visionary leader of
+                                            CompassionateCommunities in 2003, she has dedicated her career to covering
+                                            diverse topics such as global well-being, sustainable development, and
+                                            social innovation. Alice's contributions extend beyond borders, having
+                                            shared stories from Asia and South America with major publications like The
+                                            Global Harmony Gazette and Philanthropy Today. She served as the guiding
+                                            force behind the Harmony Hub, was a key player in founding Ethical
+                                            Endeavors, and early in her career, played a vital role in a team recognized
+                                            with the Humanitarian Spirit Award. Passionate about creating positive
+                                            change, Alice finds solace in nature, exploring different cultures, and
+                                            cherishing moments with her global family. She is based in Harmony Haven and
+                                            can be reached at alice@compassionatecommunities.org. Follow @AliceMHarmony
+                                            on Twitter.</li>
+                                    </ul>
+                                </li>
+
+                                <li><input type="checkbox" id="cb2" /><label for="cb2"><span class="click">(Click to
+                                            view/hide Bio)</span>
+                                        <div><img src="../assets/potrait.webp" />
+                                        </div><span class="panelist-name">Alice M.Harmony</span><br>
+                                        <p class="job-title">Editor-in-Chief, <br>ABC Firm</p>
+                                    </label>
+                                    <ul id="panelist-bio__border">
+                                        <li>Alice M. Harmony is a humanitarian analyst with 32 years of impactful
+                                            experience in philanthropy. Appointed as the visionary leader of
+                                            CompassionateCommunities in 2003, she has dedicated her career to covering
+                                            diverse topics such as global well-being, sustainable development, and
+                                            social innovation. Alice's contributions extend beyond borders, having
+                                            shared stories from Asia and South America with major publications like The
+                                            Global Harmony Gazette and Philanthropy Today. She served as the guiding
+                                            force behind the Harmony Hub, was a key player in founding Ethical
+                                            Endeavors, and early in her career, played a vital role in a team recognized
+                                            with the Humanitarian Spirit Award. Passionate about creating positive
+                                            change, Alice finds solace in nature, exploring different cultures, and
+                                            cherishing moments with her global family. She is based in Harmony Haven and
+                                            can be reached at alice@compassionatecommunities.org. Follow @AliceMHarmony
+                                            on Twitter.</label>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li><input type="checkbox" id="cb3" /><label for="cb3"><span class="click">(Click to
+                                            view/hide Bio)</span>
+                                        <div><img src="../assets/potrait.webp" />
+                                        </div><span class="panelist-name">Alice M.Harmony</span><br>
+                                        <p class="job-title">Editor-in-Chief, <br>ABC Firm</p>
+                                    </label>
+                                    <ul id="panelist-bio__border">
+                                        <li>Alice M. Harmony is a humanitarian analyst with 32 years of impactful
+                                            experience in philanthropy. Appointed as the visionary leader of
+                                            CompassionateCommunities in 2003, she has dedicated her career to covering
+                                            diverse topics such as global well-being, sustainable development, and
+                                            social innovation. Alice's contributions extend beyond borders, having
+                                            shared stories from Asia and South America with major publications like The
+                                            Global Harmony Gazette and Philanthropy Today. She served as the guiding
+                                            force behind the Harmony Hub, was a key player in founding Ethical
+                                            Endeavors, and early in her career, played a vital role in a team recognized
+                                            with the Humanitarian Spirit Award. Passionate about creating positive
+                                            change, Alice finds solace in nature, exploring different cultures, and
+                                            cherishing moments with her global family. She is based in Harmony Haven and
+                                            can be reached at alice@compassionatecommunities.org. Follow @AliceMHarmony
+                                            on Twitter.</label>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li><input type="checkbox" id="cb4" /><label for="cb4"><span class="click">(Click to
+                                            view/hide Bio)</span>
+                                        <div><img src="../assets/potrait.webp" />
+                                        </div><span class="panelist-name">Alice M.Harmony</span><br>
+                                        <p class="job-title">Editor-in-Chief, <br>ABC Firm</p>
+                                    </label>
+                                    <ul id="panelist-bio__border">
+                                        <li>Alice M. Harmony is a humanitarian analyst with 32 years of impactful
+                                            experience in philanthropy. Appointed as the visionary leader of
+                                            CompassionateCommunities in 2003, she has dedicated her career to covering
+                                            diverse topics such as global well-being, sustainable development, and
+                                            social innovation. Alice's contributions extend beyond borders, having
+                                            shared stories from Asia and South America with major publications like The
+                                            Global Harmony Gazette and Philanthropy Today. She served as the guiding
+                                            force behind the Harmony Hub, was a key player in founding Ethical
+                                            Endeavors, and early in her career, played a vital role in a team recognized
+                                            with the Humanitarian Spirit Award. Passionate about creating positive
+                                            change, Alice finds solace in nature, exploring different cultures, and
+                                            cherishing moments with her global family. She is based in Harmony Haven and
+                                            can be reached at alice@compassionatecommunities.org. Follow @AliceMHarmony
+                                            on Twitter.</label>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+
+                        <div class="wrapper__event-content">
+
+                            <section class="event-content-section">
+                                <section class="event-venue">
+                                    <h3 class="event-venue__title">
+                                        <a name="venue">
+                                            Venue: </a>
+                                    </h3>
+                                    <div class="venue-photo-map">
+                                        <section class="event-venue-photo">
+
+                                        </section>
+
+                                        <section class="event-venue-map">
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7776.08215956813!2d79.1464064!3d12.9692232!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad47a36f5b0d4b%3A0x983cad8ccde24f9e!2sVIT!5e0!3m2!1sen!2sin!4v1699773578210!5m2!1sen!2sin"
+                                                width="800" height="450" style="border:0;" allowfullscreen=""
+                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                        </section>
+                                    </div>
+                                    <p class="event-address-name-large">Anna Auditorium</p>
+
+                                    VIT
+                                    Vellore,<br>
+                                    Tamil Nadu,<br>
+                                    India- 632007
+                                </section>
+                                <section class="event-faq">
+                                    <h3 class="event-faq__title">
+                                        <a name="faqs">
+                                            FAQs: </a>
+                                    </h3>
+                                    Is parking available at the venue? <br>
+                                    Yes, parking is available at the VITV Parking. <br><br>
+                                    Is breakfast provided at this event? <br>
+                                    Yes, a full buffet breakfast will be served from 7:30am-8:00am <br><br>
+                                    I can no longer attend this event, may I offer my place to my colleague?<br>
+                                    Attendee substitutions may be made on or before November 30, 2023. Please submit
+                                    a written request by email to xyz@mail.com.<br><br>
+                                    I can no longer attend this event, may I receive a refund?<br>
+                                    Due to the nature of this event, we are unable to provide refunds. Attendee
+                                    substitutions may be made on or before November 30, 2023. Please submit a written
+                                    request by email to events@mail.com.
+
+
+
+                                </section>
+                            </section>
+
+                            <section class="event-sponsor">
+                                <h3 class="event-sponsor__title">
+                                    <a name="sponsors">
+                                        Sponsors: </a>
+                                </h3>
+                                <section class="sponsor-name">
+
+                                </section>
+                                <section class="sponsor-logo">
+
+                                    <li><input type="checkbox" id="spons" /><label for="spons"><span
+                                                class="click">(Click photo view/hide Info)</span>
+                                            <div>
+                                                <h4 class="sponsor-logo__title">
+                                                    <img src="../assets/potrait.webp" />
+                                                </h4>
+                                            </div>
+                                        </label>
+                                        <ul id="panelist-bio__border">
+                                            <li>Alice M. Harmony is a humanitarian analyst with 32 years of impactful
+                                                experience in philanthropy. Appointed as the visionary leader of
+                                                CompassionateCommunities in 2003, she has dedicated her career to
+                                                covering
+                                                diverse topics such as global well-being, sustainable development, and
+                                                social innovation. Alice's contributions extend beyond borders, having
+                                                shared stories from Asia and South America with major publications like
+                                                The
+                                                Global Harmony Gazette and Philanthropy Today. She served as the guiding
+                                                force behind the Harmony Hub, was a key player in founding Ethical
+                                                Endeavors, and early in her career, played a vital role in a team
+                                                recognized
+                                                with the Humanitarian Spirit Award. Passionate about creating positive
+                                                change, Alice finds solace in nature, exploring different cultures, and
+                                                cherishing moments with her global family. She is based in Harmony Haven
+                                                and
+                                                can be reached at alice@compassionatecommunities.org. Follow
+                                                @AliceMHarmony
+                                                on Twitter.
+
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </section>
+
+                            </section>
+
+                        </div>
+
+
+                        <div class="wrapper__event-footer">
+                            <img src="../assets/thanku.png" />
+                        </div>
+
+
+            </div>
+
+        </div>
+
+
+    </body>
+
+</div>
+
+
+
+<script src="../scripts/workshop.js" type="text/babel"></script>
+<!-- Bootstrap JS and Popper.js -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

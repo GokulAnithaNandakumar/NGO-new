@@ -50,7 +50,7 @@ const Involv = () => {
                                 <p>VIT Vellore, <abbr title="Florida">IN</abbr></p>
                                 <a class="card__location" href="https://maps.app.goo.gl/DXegbAN2YG6HoT1H6">Anna Auditorium</a>
                                 <div class="card__buttons">
-                                    <a href="#" class="card__buttons btn primary" role="button" aria-haspopup="false">
+                                    <a href="../workshop.html" class="card__buttons btn primary" role="button" aria-haspopup="false">
                                         Details
                                         <div class="card__fill"></div>
                                     </a>
@@ -75,7 +75,7 @@ const Involv = () => {
                                 <p>VIT Vellore, <abbr title="Florida">IN</abbr></p>
                                 <a class="card__location" href="https://maps.app.goo.gl/DXegbAN2YG6HoT1H6">Anna Auditorium</a>
                                 <div class="card__buttons">
-                                    <a href="#" class="card__buttons btn primary" role="button" aria-haspopup="false">
+                                    <a href="../workshop.html" class="card__buttons btn primary" role="button" aria-haspopup="false">
                                         Details
                                         <div class="card__fill"></div>
                                     </a>
@@ -101,7 +101,31 @@ const Involv = () => {
                                 <p>VIT Vellore, <abbr title="Florida">IN</abbr></p>
                                 <a class="card__location" href="https://maps.app.goo.gl/DXegbAN2YG6HoT1H6">Anna Auditorium</a>
                                 <div class="card__buttons">
-                                    <a href="#" class="card__buttons btn primary" role="button" aria-haspopup="false">
+                                    <a href="../workshop.html" class="card__buttons btn primary" role="button" aria-haspopup="false">
+                                        Details
+                                        <div class="card__fill"></div>
+                                    </a>
+                                    <a href="#" class="card__buttons btn secondary" role="button" aria-haspopup="false">
+                                        Tickets
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+
+                    <div className="col-lg flipbox">
+                        <li class="card" aria-labelledby="event card">
+                            <div class="card__filter">
+                                <img class="card__photo" src="../assets/Educatalyst.png" alt="A man in colorful clothing with the sun behind him on a beach."></img>
+                            </div>
+                            <div class="card__container">
+                                <h2>Open Talk</h2>
+                                <time>Friday, December 10 • 7:00AM</time>
+                                <p>VIT Vellore, <abbr title="Florida">IN</abbr></p>
+                                <a class="card__location" href="https://maps.app.goo.gl/DXegbAN2YG6HoT1H6">Anna Auditorium</a>
+                                <div class="card__buttons">
+                                    <a href="../workshop.html" class="card__buttons btn primary" role="button" aria-haspopup="false">
                                         Details
                                         <div class="card__fill"></div>
                                     </a>
@@ -116,6 +140,9 @@ const Involv = () => {
                     <div className="col-lg-1"></div>
                 </div>
             </section>
+
+
+
 
         </div>
     )
