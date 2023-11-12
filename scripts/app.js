@@ -85,7 +85,7 @@ const App = () => {
                                 <h1>Educatalyst</h1>
                                 <h2><b>Empowering minds, shaping futures, one child at a time</b></h2>
                                 <h3>Education is the most powerful weapon which you can use to change the world." - Nelson Mandela</h3>
-                                <button id="button3" className="btn"><a href="../public/aboutus.html">About Us</a></button>
+                                <button id="button3" className="btn"><a href="../aboutus.html">About Us</a></button>
                             </div>
                         </div>
                         <div className="col-lg-2"></div>
@@ -119,7 +119,7 @@ const App = () => {
                                     communities and break the cycle of poverty. Our projects are carefully designed to address
                                     the specific needs of underprivileged children, providing them with opportunities for
                                     growth, empowerment, and a brighter future.</h3>
-                                <button id="button4" class="btn"><a href="">Projects</a></button>
+                                <button id="button4" class="btn"><a href="project.html">Projects</a></button>
                             </div>
                         </div>
 
@@ -131,7 +131,7 @@ const App = () => {
                                     invite you to join us in our mission to empower underprivileged children.
                                     Your involvement is the catalyst that fuels our vision for a world where every child has the
                                     opportunity to break the cycle of poverty.</h3>
-                                <button id="button5" class="btn"><a href="">Get Involved</a></button>
+                                <button id="button5" class="btn"><a href="../involve.html">Get Involved</a></button>
                             </div>
                         </div>
                         <div class="col-lg-1"></div>
@@ -151,7 +151,7 @@ const App = () => {
                                     we create moments that foster community, inspire change, and contribute to the education of
                                     underprivileged children. Explore our upcoming events and be part of a movement that makes a
                                     difference.</h3>
-                                <button id="button4" class="btn"><a href="">Events</a></button>
+                                <button id="button4" class="btn"><a href="../workshop.html">Events</a></button>
                             </div>
                         </div>
 
@@ -162,7 +162,7 @@ const App = () => {
                                     blog/news section is a window into the heart of our endeavors. Stay informed, and
                                     connected as we share the journey of empowering underprivileged children through education.
                                     Explore our stories and be part of the narrative for change.</h3>
-                                <button id="button5" class="btn"><a href="../public/blogs.html">Blogs</a></button>
+                                <button id="button5" class="btn"><a href="../blogs.html">Blogs</a></button>
                             </div>
                         </div>
                         <div class="col-lg-1"></div>
