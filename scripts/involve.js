@@ -23,7 +23,7 @@ const Involv = () => {
                                 <a id="links" className="nav-link" href="../project.html">Projects</a>
                             </li>
                             <li className="nav-item">
-                                <a id="links" className="nav-link" href="../events.html">Get Involved</a>
+                                <a id="links" className="nav-link" href="../involve.html">Get Involved</a>
                             </li>
                             <li className="nav-item">
                                 <a id="links" className="nav-link" href="../contact.html">Contact Us</a>

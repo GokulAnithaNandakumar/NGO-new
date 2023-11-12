@@ -43,7 +43,7 @@ const App = () => {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a id="links" className="nav-link" href="../events.html">
+                                <a id="links" className="nav-link" href="../involve.html">
                                     Get Involved
                                 </a>
                             </li>
@@ -104,19 +104,13 @@ const App = () => {
                     </div>
                 </div>
 
-                <div id="flipboxback" className="col-lg text-center mt-5">
-                    <h1>Educatalyst</h1>
-                    <h2><b>Empowering minds, shaping futures, one child at a time</b></h2>
-                    <h3>Education is the most powerful weapon which you can use to change the world." - Nelson
-                        Mandela</h3>
-                    <button id="button3" className="btn"><a href="#">About Us</a></button>
-                </div>
+
                 <div className="col-xl-1"></div>
             </div>
 
             <div className="container">
                 <div className="col-md-12 text-center">
-                    <button id="btn1"><a href="">Donate Now</a></button>
+                    <button id="btn1"><a href="../donate.html">Donate Now</a></button>
                 </div>
             </div>
 

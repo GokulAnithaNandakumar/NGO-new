@@ -120,10 +120,10 @@ const Appnew = () => {
                                 <h4 className="title">role</h4>
                             </div>
                             <ul className="social">
-                                <li><a href="#" className="fab fa-facebook" aria-hidden="true"></a></li>
+                                <li><a href="https://www.facebook.com/" className="fab fa-facebook" aria-hidden="true"></a></li>
                                 <li><a href="#" className="fab fa-twitter" aria-hidden="true"></a></li>
                                 <li><a href="#" className="fab fa-google-plus" aria-hidden="true"></a></li>
-                                <li><a href="#" className="fab fa-linkedin" aria-hidden="true"></a></li>
+                                <li><a href="www.linkedin.com/in/gokulnandakumar" className="fab fa-linkedin" aria-hidden="true"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -137,10 +137,10 @@ const Appnew = () => {
                                 <h4 className="title">role</h4>
                             </div>
                             <ul className="social">
-                                <li><a href="#" className="fab fa-facebook" aria-hidden="true"></a></li>
+                                <li><a href="https://www.facebook.com/" className="fab fa-facebook" aria-hidden="true"></a></li>
                                 <li><a href="#" className="fab fa-twitter" aria-hidden="true"></a></li>
                                 <li><a href="#" className="fab fa-google-plus" aria-hidden="true"></a></li>
-                                <li><a href="#" className="fab fa-linkedin" aria-hidden="true"></a></li>
+                                <li><a href="www.linkedin.com/in/gokulnandakumar" className="fab fa-linkedin" aria-hidden="true"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -154,10 +154,10 @@ const Appnew = () => {
                                 <h4 className="title">role</h4>
                             </div>
                             <ul className="social">
-                                <li><a href="#" className="fab fa-facebook" aria-hidden="true"></a></li>
+                                <li><a href="https://www.facebook.com/" className="fab fa-facebook" aria-hidden="true"></a></li>
                                 <li><a href="#" className="fab fa-twitter" aria-hidden="true"></a></li>
                                 <li><a href="#" className="fab fa-google-plus" aria-hidden="true"></a></li>
-                                <li><a href="#" className="fab fa-linkedin" aria-hidden="true"></a></li>
+                                <li><a href="www.linkedin.com/in/gokulnandakumar" className="fab fa-linkedin" aria-hidden="true"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -171,10 +171,10 @@ const Appnew = () => {
                                 <h4 className="title">role</h4>
                             </div>
                             <ul className="social">
-                                <li><a href="#" className="fab fa-facebook" aria-hidden="true"></a></li>
+                                <li><a href="https://www.facebook.com/" className="fab fa-facebook" aria-hidden="true"></a></li>
                                 <li><a href="#" className="fab fa-twitter" aria-hidden="true"></a></li>
                                 <li><a href="#" className="fab fa-google-plus" aria-hidden="true"></a></li>
-                                <li><a href="#" className="fab fa-linkedin" aria-hidden="true"></a></li>
+                                <li><a href="www.linkedin.com/in/gokulnandakumar" className="fab fa-linkedin" aria-hidden="true"></a></li>
                             </ul>
                         </div>
                     </div>

@@ -194,13 +194,13 @@ const App = () => {
                                     <h4 class="title">role</h4>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="#" class="fab fa-facebook"
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
                                         aria-hidden="true"></a></li>
                                     <li><a href="#" class="fab fa-twitter"
                                         aria-hidden="true"></a></li>
                                     <li><a href="#" class="fab fa-google-plus"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="#" class="fab fa-linkedin"
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
                                         aria-hidden="true"></a></li>
                                 </ul>
                             </div>
@@ -215,13 +215,13 @@ const App = () => {
                                     <h4 class="title">role</h4>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="#" class="fab fa-facebook"
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
                                         aria-hidden="true"></a></li>
                                     <li><a href="#" class="fab fa-twitter"
                                         aria-hidden="true"></a></li>
                                     <li><a href="#" class="fab fa-google-plus"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="#" class="fab fa-linkedin"
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
                                         aria-hidden="true"></a></li>
                                 </ul>
                             </div>
@@ -236,13 +236,13 @@ const App = () => {
                                     <h4 class="title">role</h4>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="#" class="fab fa-facebook"
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
                                         aria-hidden="true"></a></li>
                                     <li><a href="#" class="fab fa-twitter"
                                         aria-hidden="true"></a></li>
                                     <li><a href="#" class="fab fa-google-plus"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="#" class="fab fa-linkedin"
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
                                         aria-hidden="true"></a></li>
                                 </ul>
                             </div>
@@ -257,13 +257,13 @@ const App = () => {
                                     <h4 class="title">role</h4>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="#" class="fab fa-facebook"
+                                    <li><a href="https://www.facebook.com/" class="fab fa-linkedin"
                                         aria-hidden="true"></a></li>
                                     <li><a href="#" class="fab fa-twitter"
                                         aria-hidden="true"></a></li>
                                     <li><a href="#" class="fab fa-google-plus"
                                         aria-hidden="true"></a></li>
-                                    <li><a href="#" class="fab fa-linkedin"
+                                    <li><a href="www.linkedin.com/in/gokulnandakumar" class="fab fa-linkedin"
                                         aria-hidden="true"></a></li>
                                 </ul>
                             </div>
