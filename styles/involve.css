@@ -255,3 +255,31 @@ nav {
         display: inline;
     }
 }
+
+
+
+#btn1 {
+    align-items: center;
+    background-color: red;
+    border-radius: 6px;
+    padding: 15px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 20px;
+    border-color: white;
+    margin-top: 40px;
+}
+
+#btn1 a {
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+#btn1 a:hover {
+
+    color: black;
+}
