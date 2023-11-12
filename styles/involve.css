@@ -1,0 +1,257 @@
+/* Add your custom styles here */
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+nav {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.hero-section {
+    background-color: white;
+
+}
+
+.about-us-section,
+.projects-section,
+.get-involved-section,
+.contact-us-section {
+    padding: 80px 0;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 0px;
+}
+
+nav {
+    border-bottom: 2px solid black;
+}
+
+
+#logo {
+    width: 25%;
+    height: 25%;
+    margin-left: 40px;
+    margin-top: 10px;
+
+}
+
+#links {
+    color: #000;
+    text-align: center;
+    font-family: Cabin;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 12px;
+    margin: 10px;
+}
+
+
+
+
+/* Font Import */
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Poppins:800');
+
+/* Mixin for Font */
+@mixin font($family, $weight, $size) {
+    font-family: $family, sans-serif;
+    font-weight: $weight;
+    font-size: $size;
+}
+
+/* Card Styles */
+.card {
+    padding: 13px;
+    max-width: 318px;
+    width: 100%;
+    background: linear-gradient(-120deg, #EC51DE 0%, #53A0FD 60%, #3023AE 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card__filter {
+    height: 212px;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+}
+
+.card__filter::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    mix-blend-mode: multiply;
+    background: linear-gradient(-150deg, #EB0EC7 0%, #1897E1 100%);
+    z-index: 1;
+}
+
+.card__photo {
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.card__container {
+    background: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    @include font('Poppins', regular, 37px);
+    color: #405CD2;
+    letter-spacing: -1.06px;
+    margin: 0 0.4em 0.4em 0;
+}
+
+.card time,
+.card p,
+.card .card__location {
+    @include font('IBM Plex Mono', regular, 14px);
+    color: #535353;
+    margin: 0.18em;
+}
+
+.card__location {
+    text-decoration-color: #EB0EC7;
+    -webkit-text-decoration-color: #EB0EC7;
+    transition: all 250ms ease;
+    max-width: 13.3em;
+}
+
+.card__location:hover {
+    background-color: rgba(235, 14, 199, 0.2);
+    text-decoration-color: rgba(235, 14, 199, 0.2);
+}
+
+.card__buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 1.5em 0 0.5em 0;
+    flex-direction: row;
+}
+
+.card__buttons .btn {
+    @include font('IBM Plex Mono', regular, 15px);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: center;
+    display: block;
+    flex: 1 1 100%;
+    color: #fff;
+    padding: 1em;
+    transition: all 0.4s ease;
+}
+
+.card__buttons .btn:hover {
+    -webkit-animation: gradient 1.3s ease infinite;
+    -moz-animation: gradient 1.3s ease infinite;
+    animation: gradient 1.3s ease infinite;
+}
+
+.card__buttons .btn:hover i {
+    -webkit-animation: levitate 1.3s ease infinite;
+    -moz-animation: levitate 1.3s ease infinite;
+    animation: levitate 1.3s ease infinite;
+}
+
+.card__buttons .primary {
+    position: relative;
+    background-image: linear-gradient(to right, #1897E1, #3022AD);
+    background-size: 150% 150%;
+    z-index: 1;
+}
+
+.card__buttons .secondary {
+    position: relative;
+    background-image: linear-gradient(to right, #CC19BF, #7623A2);
+    background-size: 150% 150%;
+    z-index: 1;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes levitate {
+    0% {
+        padding-left: 0px;
+    }
+
+    50% {
+        padding-left: 5px;
+    }
+
+    100% {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 400px) {
+    .fas {
+        display: none;
+    }
+
+    .card__buttons {
+        display: inline;
+    }
+}
