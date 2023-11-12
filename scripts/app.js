@@ -41,24 +41,29 @@ const App = () => {
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="../assets/firstslide.png" className="d-block w-100" alt="First Image" />
+                            <a href="../aboutus.html"><img src="../assets/firstslide.png" className="d-block w-100" alt="First Image" /></a>
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>Child Protection</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <h2 id="firstslideh2">"Empowering Futures, One Child at a Time"</h2>
+                                <h5>At Educatalyst, we believe in the transformative power of education. Our mission is to break barriers and provide underprivileged children with the keys to a brighter future. Join us in nurturing dreams, igniting curiosity, and fostering a love for learning. Together, we can make education a beacon of hope for every child.</h5>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src="../assets/secondslide.jpg" className="d-block w-100" alt="Second Image" />
+
+
+                            <a href="../project.html"> <img src="../assets/secondslide.jpg" className="d-block w-100" alt="Second Image" /></a>
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>Girl's Education</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <h2 id="firstslideh2">"Transformative Projects, Lasting Impact"</h2>
+                                <h5>Discover the heart of Educatalyst through our impactful projects designed to uplift and educate underprivileged children. From building classrooms to providing learning resources, each project is a testament to our commitment to shaping a brighter future. Explore the initiatives that are making a lasting difference in the lives of these young minds.
+
+                                </h5>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src="../assets/thirdslide.png" className="d-block w-100" alt="Third Image" />
+                            <a href="../involve.html"><img src="../assets/thirdslide.png" className="d-block w-100" alt="Third Image" /></a>
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <h2 id="firstslideh2">"Get Involved: Be the Change"</h2>
+                                <h5>Join us in the noble journey of volunteering with Educatalyst. Your commitment and passion can create lasting positive change in the lives of underprivileged children. Whether you choose to teach, mentor, or organize events, your invaluable time contributes to building a brighter future for those who need it most. Make a difference by contributing to our cause. Your donations are a lifeline for our educational projects, ensuring that more children receive quality education. Your financial support empowers us to reach new heights, breaking barriers and fostering an environment where every child has the opportunity to learn and thrive.
+                                </h5>
                             </div>
                         </div>
                     </div>
